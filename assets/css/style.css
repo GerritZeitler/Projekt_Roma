@@ -16,11 +16,12 @@ font-family: 'Tangerine', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Santiobold;
+    
 }
 
 body {
     width: 100vw;
+    font-family: Santiobold;
 }
 
 span {
@@ -76,14 +77,23 @@ main section:nth-child(1) h1 {
     width: 43%;
 }
 
-.scrolldown {
+.yellowstyle {
     font-family: 'Tangerine', cursive;
     font-weight: 700;
     font-size: 60px;
     color: #e7bc0e;
     padding-left: 10%;
     letter-spacing: -0.05em;
+}
+.scrolldown,.arrow {
+   display: inline-block;
+}
 
+.arrow {
+    margin-left: 10px;
+    padding-bottom: 20px;
+    font-size: 150px;
+    transform: rotate(180deg);
 }
 
 main section:nth-child(2) {
@@ -154,6 +164,7 @@ main section:nth-child(2) {
 
 .kids img {
     width: 100vw;
+    vertical-align: bottom;
 
 }
 
@@ -194,7 +205,7 @@ footer section h5 {
 
 .improveworking {
     padding-bottom: 400px;
-    margin-top: -10px;
+    
 }
 
 .improveworking p {
